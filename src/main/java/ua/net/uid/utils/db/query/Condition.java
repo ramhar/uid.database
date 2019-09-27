@@ -44,7 +44,7 @@ public abstract class Condition implements QueryPart {
         return conditions.length == 1 ? conditions[0] : new Or(conditions);
     }
     
-    public static Condition in(CharSequence left, Collection items) {
+    public static Condition in(CharSequence left, Collection<?> items) {
         if (left == null || left.length() == 0)
             throw new IllegalArgumentException("left side parameter for 'in' condition is null");
         if (items == null || items.isEmpty()) return null;

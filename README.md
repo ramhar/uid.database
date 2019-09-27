@@ -14,6 +14,6 @@ pom.xml:
 
         <dependency>
             <groupId>ua.net.uid</groupId>
-            <artifactId>uid.security</artifactId>
+            <artifactId>uid.database</artifactId>
             <version>1.0.0</version>
         </dependency>

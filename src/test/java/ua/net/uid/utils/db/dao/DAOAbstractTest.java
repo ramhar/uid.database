@@ -166,9 +166,9 @@ class DAOAbstractTest {
             this.modified = modified;
         }
 
-        Item(String title, int value, boolean disabled, Date modified) {
+        /*Item(String title, int value, boolean disabled, Date modified) {
             this(null, title, value, disabled, modified);
-        }
+        }*/
 
         Item(String title, int value, boolean disabled) {
             this(null, title, value, disabled, new Date());

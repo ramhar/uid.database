@@ -97,8 +97,8 @@
         <connection>scm:git:https://git.uid.net.ua/git/uid/uid.database.git</connection>
         <developerConnection>scm:git:https://git.uid.net.ua/git/uid/uid.database.git</developerConnection>
         <url>https://git.uid.net.ua/git/uid/uid.database.git</url>
-      <tag>HEAD</tag>
-  </scm>
+        <tag>HEAD</tag>
+    </scm>
     
     <distributionManagement>
         <repository>
